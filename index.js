@@ -1,7 +1,6 @@
 
 const bodyElement = document.querySelector('body')
-const hearts = document.querySelectorAll('heart')
-const likeCounter = document.querySelector('like')
+
 
 
 const posts = [
