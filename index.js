@@ -1,5 +1,8 @@
 
 const bodyElement = document.querySelector('body')
+const hearts = document.querySelectorAll('heart')
+const likeCounter = document.querySelector('like')
+
 
 const posts = [
     {
@@ -49,12 +52,12 @@ for(let i = 0; i < posts.length; i++) {
         <img class = "small" src = "${posts[i].post}">
 
         <div class = "logos">
-             <img src = "images/icon-heart.png" alt = 'Leave a like icon'>
+             <img id = "heart" src = "images/icon-heart.png" alt = 'Leave a like icon'>
              <img src = "images/icon-comment.png" alt = 'Leave a comment icon'>
              <img src = "images/icon-dm.png" alt = 'Leave a DM icon'>
         </div>
 
-        <p class = "likes"> <b> ${posts[i].likes} likes </b> </p>
+        <p class = "likes"> <b> <span class = "like">${posts[i].likes}</span> likes </b> </p>
 
         <p class = 'img-desc'><b>${posts[i].username}</b> ${posts[i].comment} </p>
     </section>   
@@ -63,12 +66,5 @@ for(let i = 0; i < posts.length; i++) {
 
 
     bodyElement.innerHTML += htmlStructure
-
-
-
-
-
-
-
-
 }
+

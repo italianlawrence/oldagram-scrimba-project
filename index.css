@@ -72,3 +72,7 @@ section { /* section-van-gogh */
 .logos img {
     width: 30px;
 }
+
+.heart:hover, .heart:focus {
+    opacity: 50%;
+}
