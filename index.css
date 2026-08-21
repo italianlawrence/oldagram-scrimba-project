@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgrey;
 }
 
 .logo {
@@ -17,4 +19,56 @@ header {
     justify-content: center;
     gap: 100px;
     padding-bottom: 15px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+
+
+.section-header img {
+    width: 100px;
+    border-radius: 100%;
+
+}
+
+.section-header {
+    display: flex;
+    gap: 20px;
+    padding: 30px 15px;
+    background-color: white;
+}
+
+section { /* section-van-gogh */
+    width: 33.3%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: white;
+    padding-bottom: 3px;
+    margin-bottom: 50px;
+}
+
+.section-info {
+    margin-top: 25px;
+}
+
+.small {
+    width: 100%;
+}
+
+.desc-paragraph, .desc-h2 {
+    margin: 0;
+}
+
+
+.logos, .likes, .img-desc {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.likes {
+    padding-top: 0;
+}
+
+.logos img {
+    width: 30px;
 }
